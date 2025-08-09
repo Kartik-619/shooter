@@ -14,8 +14,8 @@ export default function Garden() {
     }
 
     const { speed, angle, gravity } = useControls({
-        speed: { value: 50, min: 0, max: 500, step: 50 },
-        angle: { value: 45, min: 25, max: 90, step: 1 },
+        speed: { value: 50, min: 0, max: 300, step: 50 },
+        angle: { value: 45, min: 25, max: 70, step: 1 },
         gravity: {
             options: {
                 earth: 9.8,
