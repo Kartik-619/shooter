@@ -5,7 +5,7 @@
 A real-time, interactive physics simulation that visualizes the trajectory of a cannonball under gravity. Explore how speed, angle, and gravitational fields affect motion — all in your browser!
 
 🔗 **Live Demo**: https://projectileshooter.vercel.app 
-🎥 **Watch it in action** — see physics come alive!
+
 
 ---
 
