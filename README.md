@@ -1,6 +1,6 @@
 
 
-# 🎯 Projectile Motion Simulator
+<h1> 🎯 Projectile Motion Simulator</h1>
 
 A real-time, interactive physics simulation that visualizes the trajectory of a cannonball under gravity. Explore how speed, angle, and gravitational fields affect motion — all in your browser!
 
@@ -9,7 +9,7 @@ A real-time, interactive physics simulation that visualizes the trajectory of a 
 
 ---
 
-## 🌟 Features
+<h3> 🌟 Features</h3>
 
 - 🔫 **Shoot on demand** with a click of a button
 - 📏 **Adjustable parameters**:
@@ -26,7 +26,7 @@ A real-time, interactive physics simulation that visualizes the trajectory of a 
 
 ---
 
-## 🛠️ How It Works
+<h3> 🛠️ How It Works</h3>
 
 The simulation uses **HTML5 Canvas** and **React** to render a dynamic environment where:
 
@@ -53,7 +53,7 @@ The simulation uses **HTML5 Canvas** and **React** to render a dynamic environme
 
 ---
 
-## 🧰 Tech Stack
+<h3> 🧰 Tech Stack</h3>
 
 | Technology | Purpose |
 |----------|--------|
@@ -66,7 +66,7 @@ The simulation uses **HTML5 Canvas** and **React** to render a dynamic environme
 
 ---
 
-🌐 Live Deployment
+<h3>🌐 Live Deployment</h3>
 Deployed on Vercel for free!
 👉https://projectileshooter.vercel.app/ <br>
 
@@ -74,7 +74,7 @@ Deployed on Vercel for free!
 <br>
 
 
-🎓 Educational Value
+<h3>🎓 Educational Value</h3>
 This simulator is perfect for:
 
 Physics students learning projectile motion
@@ -91,18 +91,18 @@ It helps visualize:
 
 <hr><br>
 
-☝️👋Contributing
-Contributions are welcome!
-Want to add:
+<h3>☝️👋Contributing </h3>
+Contributions are welcome! <br>
+Want to add: <br>
 
-Trajectory prediction line?
-Multiple balls?
-Sound effects?
-Mobile support?
-Fork the repo, make your changes, and open a PR!
+Trajectory prediction line?<br>
+Multiple balls?<br>
+Sound effects?<br>
+Mobile support?<br>
+Fork the repo, make your changes, and open a PR!<br>
 <hr><br>
-🙌 Acknowledgments
-Built with ❤️ using React and Leva.
+<h3>🙌 Acknowledgments</h3>
+Built with ❤️ using React and Leva. <br>
 Inspired by real-world physics and the joy of learning through interaction.
 
 <hr>
