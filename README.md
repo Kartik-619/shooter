@@ -1,12 +1,40 @@
-# React + Vite
+# 🎯 Projectile Motion Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time, interactive physics simulation that visualizes the trajectory of a cannonball under gravity. Explore how speed, angle, and gravitational fields affect motion — all in your browser!
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://projectile-simulator.vercel.app](https://projectile-simulator.vercel.app)  
+🎥 **Watch it in action** — see physics come alive!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔫 **Shoot on demand** with a click of a button
+- 📏 **Adjustable parameters**:
+  - Initial speed
+  - Launch angle
+  - Gravity (Earth, Moon, Neptune, Zero-G, etc.)
+- 🌍 **Visual canvas animation** showing realistic projectile motion
+- 🔄 **Bouncing physics** — ball bounces off walls and ground with damping
+- 📊 **Real-time trajectory** using kinematic equations
+- 🎨 **Interactive cannon visualization** using SVG
+- 🧮 **Physics-based motion**:
+  - `x = vx * t`
+  - `y = vy * t + 0.5 * g * t²`
+
+---
+
+## 🛠️ How It Works
+
+The simulation uses **HTML5 Canvas** and **React** to render a dynamic environment where:
+
+1. The user sets:
+   - Speed (0–500 m/s)
+   - Angle (0°–90°)
+   - Gravity (Earth: 9.8, Moon: 1.62, etc.)
+
+2. On clicking **"Shoot!"**, the cannon fires a ball with:
+   - Horizontal velocity: `vx = v * cos(θ)`
+   - Vertical velocity: `vy = -v * sin(θ)` (negative for upward in canvas)
+
+3. The ball follows a parabolic path governed by:
